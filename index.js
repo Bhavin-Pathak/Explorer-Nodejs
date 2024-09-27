@@ -10,7 +10,12 @@ app.get("/api/hello", (req, res) => {
     timestamp: new Date().toISOString(),
   });
 });
-
+app.get("/api/user", (req, res) => {
+  res.json({
+    message: "Hello, World!",
+    timestamp: new Date().toISOString(),
+  });
+});
 app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).send({ error: "Something went wrong." });
