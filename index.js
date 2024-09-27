@@ -11,6 +11,11 @@ app.get("/api/hello", (req, res) => {
   });
 });
 
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).send({ error: "Something went wrong." });
+});
+
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
 });
