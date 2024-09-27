@@ -7,6 +7,9 @@ const server = http.createServer((req, response) => {
   response.end(
     JSON.stringify({
       message: "Hello, World!",
+      version: "1.0.0",
+      author: "Godfather",
+      description: "Corepackage Using API",
     })
   );
   console.log(`Request received at ${new Date()}`);
