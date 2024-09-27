@@ -1,0 +1,19 @@
+{
+  "name": "explorer_nodejs",
+  "version": "1.0.0",
+  "description": "Nodejs Cruds Operations With MYSQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhavin-Pathak/Explorer-Nodejs.git"
+  },
+  "author": "Bhavin Pathak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bhavin-Pathak/Explorer-Nodejs/issues"
+  },
+  "homepage": "https://github.com/Bhavin-Pathak/Explorer-Nodejs#readme"
+}
