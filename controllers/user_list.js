@@ -1,5 +1,6 @@
 import db from "../config/db.js";
 
+// Connect to the MySQL database
 const promiseDB = db.promise();
 
 //! GET ALL USERS LIST FROM DB
