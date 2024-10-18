@@ -5,7 +5,7 @@ const connection = mysql.createConnection({
   host: "localhost", //! Host
   user: "root", //! Username
   password: "", //! DB Password
-  database: "", //! DB Name
+  database: "node_cruds", //! DB Name
 });
 
 export default connection;
